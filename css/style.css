@@ -3,50 +3,61 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(135deg, #111 60%, #FFD700 100%);
-    color: #FFD700;
+    background: linear-gradient(135deg, #e3f0ff 60%, #ffffff 100%);
+    color: #1a237e;
 }
 
 header {
-    background: linear-gradient(90deg, #111 70%, #FFD700 100%);
-    color: #FFD700;
+    background: linear-gradient(90deg, #111 20%, #1976d2 70%, #FFD700 100%);
+    color: #fff;
     padding: 1.5rem 1rem;
     text-align: center;
     border-bottom: 3px solid #FFD700;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.2);
+    letter-spacing: 2px;
+}
+header h1, header h2, header h3, header h4, header h5, header h6 {
+    color: #fff;
+    text-shadow: 2px 2px 8px #111, 0 0 2px #FFD700;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 
 nav a {
-    color: #FFD700;
+    color: #111;
+    background: #e3f0ff;
     margin: 0 14px;
     text-decoration: none;
     font-weight: bold;
     padding: 6px 16px;
     border-radius: 20px;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 2px 6px rgba(255, 215, 0, 0.15);
+    box-shadow: 0 2px 6px rgba(25, 118, 210, 0.10);
+    border: 2px solid #FFD700;
 }
 nav a:hover, nav a:focus {
-    background: #FFD700;
-    color: #111;
-    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+    background: #111;
+    color: #FFD700;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.18);
+    border-color: #FFD700;
 }
 
 main {
     padding: 2rem;
-    background: rgba(0,0,0,0.85);
+    background: #f5faff;
     border-radius: 18px;
-    box-shadow: 0 4px 24px rgba(255, 215, 0, 0.08);
+    box-shadow: 0 4px 24px rgba(25, 118, 210, 0.08);
     margin: 2rem auto;
     max-width: 900px;
+    border: 1px solid #FFD700;
+    color: #111;
 }
 
 footer {
     text-align: center;
-    background: #111;
-    color: #FFD700;
+    background: linear-gradient(90deg, #111 20%, #1976d2 80%);
+    color: #fff;
     padding: 1rem;
     border-top: 2px solid #FFD700;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.7);
+    box-shadow: 0 -2px 8px rgba(25, 118, 210, 0.15);
 }
